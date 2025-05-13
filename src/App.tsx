@@ -1,5 +1,5 @@
 import { Heading } from "./components/Heading";
-import { Home } from "./components/Home";
+import { Logo } from "./components/Logo";
 import { Container } from "./components/Container";
 
 import "./styles/theme.css";
@@ -9,8 +9,9 @@ export function App() {
   return (
     <>
       <Container>
-        <Heading>Logo</Heading>
+        <Logo />
       </Container>
+
       <Container>
         <Heading>Menu</Heading>
       </Container>
@@ -22,9 +23,6 @@ export function App() {
           voluptatem tempore ex culpa, iste aut tenetur, atque quaerat fuga
           vitae, aliquam repellat.
         </section>
-        <Heading>
-          <Home />
-        </Heading>
       </Container>
     </>
   );
