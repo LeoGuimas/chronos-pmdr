@@ -1,0 +1,8 @@
+
+.heading {
+  display: flex;
+  flex-direction: column; /* muda a direção para empilhar verticalmente */
+  align-items: center;
+  justify-content: center;
+}
+

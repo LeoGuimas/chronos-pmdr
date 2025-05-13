@@ -1,0 +1,26 @@
+.home {
+  display: flex;
+  flex-direction: column; /* muda a direção para empilhar verticalmente */
+  align-items: center;
+  justify-content: center;
+}
+
+button {
+  margin-top: 2rem;
+  border-style: none;
+  background-color: transparent;
+  color: var(--primary);
+  transition: color 0.3s ease, transform 0.3s ease;
+  font-size: 1.6rem;
+}
+
+button svg {
+  width: 5rem;
+  height: 5rem;
+}
+
+button:hover {
+  color: var(--text-over-primary-dark);
+  cursor: pointer;
+  transform: scale(1.05);
+}
