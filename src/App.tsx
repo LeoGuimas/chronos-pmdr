@@ -1,9 +1,10 @@
-import { Heading } from "./components/Heading";
 import { Logo } from "./components/Logo";
 import { Container } from "./components/Container";
+import { Menu } from "./components/Menu";
 
 import "./styles/theme.css";
 import "./styles/global.css";
+import { CountDown } from "./components/CountDown";
 
 export function App() {
   return (
@@ -13,16 +14,11 @@ export function App() {
       </Container>
 
       <Container>
-        <Heading>Menu</Heading>
+        <Menu />
       </Container>
 
       <Container>
-        <section>
-          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Neque
-          voluptatibus reprehenderit praesentium ipsam vel natus debitis! Ullam
-          voluptatem tempore ex culpa, iste aut tenetur, atque quaerat fuga
-          vitae, aliquam repellat.
-        </section>
+        <CountDown />
       </Container>
     </>
   );
